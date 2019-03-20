@@ -621,7 +621,7 @@ function withExactlyOneSubschema(
 }
 
 function mergeSchemas(schema1, schema2) {
-  return mergeObjects(schema1, schema2, true);
+  return mergeObjects(schema1, schema2);
 }
 
 function isArguments(object) {
